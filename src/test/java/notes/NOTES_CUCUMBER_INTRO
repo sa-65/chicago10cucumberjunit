@@ -1,0 +1,37 @@
+TEST NG XML Runner files
+-> it helps us to group certain automated scenarios.
+-> It helps us to manage the test suites.
+-> Helps us to run the test from command line by using maven.
+-> helps us to integrate with third party tool such as Jenkins.
+
+JUnit --> Testing framework that allows us to do unit testing. Simpler version of TestNG.
+-------------------------------------------------------------
+
+BDD
+-> Behavior Driven Development
+-> Product or functionality is developed based on the behavior.
+
+CBT-1255
+When user goes to here, then user should see that.
+
+
+TDD
+-> Test Driven Development
+
+
+test.feature
+-> feature file is where we write the steps in Gherkin language.
+-> Cucumber is Testing tool where it fits to BDD development environment.
+-> Cucumber has two parts.
+1. Feature files -> where we have steps
+2. Step definitions -> where we have source code or implementations of steps.
+
+--------------
+TASK:
+Create a feature file for Amazon title verification.
+name of feature file: amazonTitle.feature
+
+features--> this property points to feature files
+glue --> points to step definitions/implementations
+tags --> configures which scenarios to run using tag name
+dryRun --> only runs dry. Without executing.
